@@ -1,0 +1,334 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+   <?php include("includes/include_css.html") ?>
+</head>
+<body>
+<!-- header -->
+<?php include("includes/browser_upgrade.html") ?>
+<div id="demo-1" data-zs-src='["images/2.jpg", "images/4.jpg", "images/1.jpg","images/3.jpg"]' data-zs-overlay="dots">
+	<div class="demo-inner-content">
+		<?php include("includes/header.html") ?>
+		<!-- banner-info -->
+		<div class="agile-baner-info-w3ls">  
+			<h3>We Are Available For Your <span>Wooden Work</span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam exercitation.</p>
+			<a href="#" data-toggle="modal" data-target="#myModal" class="hvr-wobble-skew read">Read More</a>
+		</div>
+		<!-- //banner-info -->
+		<!-- model -->
+		<div class="tooltip-content">
+			<div class="modal fade features-modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Wooden Work</h4>
+						</div>
+						<div class="modal-body">
+							<img src="images/g4.jpg" alt="Hitech Info">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius lectus vitae porttitor fringilla. Donec turpis orci, elementum a nunc quis, maximus varius ipsum. Sed bibendum ex in dignissim bibendum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //model -->
+	</div>
+</div>
+<!-- //banner-section -->
+<!-- about -->
+<div class="about w3layouts-agileinfo" id="about">
+	<div class="container">
+		<h3 class="agile-title">About Us</h3>
+		<div class="about-top w3ls-agile">
+			<div class="col-md-6 red">
+				<img class="img-responsive" src="images/ab.jpg" alt="">
+			</div>
+			<div class="col-md-6 come">
+				<div class="about-wel">
+					<h5>Over 15 Years Experience In Industry</h5>
+					<p>Masagni dolores eoquie int Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temurer sehsMunim.</p>
+						<ul>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Renovation of office furniture</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Make Quality Products</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Hardwood Flooring</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Interior Furniture Manufacturing</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Excellent Designing</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Reparing of wooden almerah</li>
+						</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+
+
+<!-- services -->
+<div class="service-w3l" id="services">
+	<div class="container">
+		<h3 class="agile-title"> Our Services</h3>
+		<div class="service-grids">
+			<div class="col-xs-4 ser-grid">
+				<div class="ser-top">
+					<div class="con hvr-shutter-in-horizontal">
+						<i class="fa fa-cubes" aria-hidden="true"></i>
+					</div>
+					<h4>WOODEN SELFS</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-xs-4 ser-grid">
+				<div class="ser-top">
+					<div class="con hvr-shutter-in-horizontal">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</div>
+					<h4>HOME FURNITURE</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-xs-4 ser-grid">
+				<div class="ser-top">
+					<div class="con hvr-shutter-in-horizontal">
+						<i class="fa fa-clone" aria-hidden="true"></i>
+					</div>
+					<h4>WOODEN INTERIOR</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="service-grids ser2">
+			<div class="col-xs-4 ser-grid">
+				<div class="ser-top">
+					<div class="con hvr-shutter-in-horizontal">
+						<i class="fa fa-gavel" aria-hidden="true"></i>
+					</div>
+					<h4>EXTERIOR DESIGN</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-xs-4 ser-grid">
+				<div class="ser-top">
+					<div class="con hvr-shutter-in-horizontal">
+						<i class="fa fa-paint-brush" aria-hidden="true"></i>
+					</div>
+					<h4>OFFICE FURNITURE</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-xs-4 ser-grid">
+				<div class="ser-top">
+					<div class="con hvr-shutter-in-horizontal">
+						<i class="fa fa-wrench" aria-hidden="true"></i>
+					</div>
+					<h4>KITCHEN MODELING</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //services -->	
+
+
+
+
+<!-- gallery -->
+<div id="gallery" class="portfolio">
+	<div class="container">
+		<h3 class="agile-title">Portfolio</h3>
+		<div class="gallery_gds agileits-w3layouts">
+			<ul class="simplefilter">
+				<li class="active" data-filter="all">All</li>
+				<li data-filter="1">Indoor Furniture</li>
+				<li data-filter="2">Wood Supply</li>
+				<li data-filter="3">Repairing</li>
+			</ul>
+			<div class="filtr-container">
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="1" data-sort="Busy streets">
+					<div class="hover ehover14">
+						<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g1.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="2" data-sort="Luminous night">
+					<div class="hover ehover14">
+						<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g2.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="3" data-sort="City wonders">
+					<div class="hover ehover14">
+						<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g3.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="3" data-sort="Industrial site">
+					<div class="hover ehover14">
+						<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g4.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="3" data-sort="In production">
+					<div class="hover ehover14">
+						<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g5.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="2" data-sort="Peaceful lake">
+					<div class="hover ehover14">
+						<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g6.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="1" data-sort="Industrial site">
+					<div class="hover ehover14">
+						<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g7.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="1" data-sort="In production">
+					<div class="hover ehover14">
+						<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g3.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 filtr-item" data-category="2, 4" data-sort="Peaceful lake">
+					<div class="hover ehover14">
+						<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+							<img src="images/g4.jpg" alt="" class="img-responsive" />
+							<div class="overlay">
+								<h4>Wooden Work</h4>
+								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
+							</div>
+						</a>	
+					</div>
+				</div>
+			   <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //gallery -->
+
+
+<!-- middle-section -->
+<div class="subscribe-agileinfo about-w3agile"> 
+	<div class="container">  
+		<h3>If you have any wood work need...</h3>
+		<p>Simply call our 24 hour emergency number.</p> 
+		<p><a><i class="fa fa-phone" aria-hidden="true"></i> +012 345 6789</a><p>
+	</div>
+</div>
+<!-- //middle-section -->
+
+
+<!-- map -->
+<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" style="border:0"></iframe>
+</div>
+<!-- //map -->
+<!-- mail -->
+<div class="contact" id="mail">
+	<div class="container">
+		<div class="col-xs-7 mail-grid1-form ">
+			<h3 class="heading-agileinfo white">Send a Message</h3>
+			<form action="#" method="post">
+				<input type="text" name="Name" placeholder="Name" required="" />
+				<input type="email" name="Email" placeholder="Email" required="" />
+				<textarea name="Message" placeholder="Type Your Text Here...." required=""></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class="col-xs-5 agileinfo_footer_grid f3">
+			<div class="nav-w3-l">
+				<!-- <ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="#about" class="scroll">About</a></li>
+					<li><a href="#services" class="scroll">Services</a></li>
+					<li><a href="#team" class="scroll">Team</a></li>
+					<li><a href="#gallery" class="scroll">Portfolio</a></li>
+					<li><a href="#mail" class="scroll">Mail Us</a></li>
+				</ul> -->
+			</div>
+		</div>
+		<div class="address-agileits ">
+			<h3>Get In Touch</h3>
+			<h4>Company Name</h4>
+			<p class="para-w3layouts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at risus facilisis, semper justo ut, sagittis urna.</p>
+			<div class="mail_agileits_w3layouts">
+				<div class="mail-w3-agileits">
+					<h4>Address</h4>
+					<p>9125 Imperial Hwy, Downey, CA 90242, USA.</p>
+				</div>
+			</div>
+			<div class="mail_agileits_w3layouts">
+				<div class="mail-w3-agileits">
+					<h4>Email</h4>
+					<p>
+						<a href="mailto:info@example.com">info@example1.com</a>
+					</p>
+				</div>
+			</div>
+			<!-- w3agile --> 
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //mail -->
+
+
+
+<div class="copy">
+  <?php include("includes/footer.html") ?>
+</div>
+<?php include("includes/include_js.html") ?>
+</body>
+</html>
