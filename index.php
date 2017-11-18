@@ -9,15 +9,17 @@
 <body>
 <!-- header -->
 <?php include("includes/browser_upgrade.html") ?>
-<div id="demo-1" data-zs-src='["images/2.jpg", "images/4.jpg", "images/1.jpg","images/3.jpg"]' data-zs-overlay="dots">
+<div id="demo-1" data-zs-src='["images/slide1.jpg", "images/slide2.jpg", "images/slide3.jpg"]' data-zs-overlay="dots">
 	<div class="demo-inner-content">
 		<?php include("includes/header.html") ?>
 		<!-- banner-info -->
 		<div class="agile-baner-info-w3ls">  
-			<h3>We Are Available For Your <span>Wooden Work</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam exercitation.</p>
+			<h3>Why Jiya Pharmachem?</span></h3>
+			<p>Jiya Pharmachem provides a wide range of Speciality Chemicals characterised by an innovation culture that regularly updates & launches high performance functional molecules. This range is customer focussed & application specific used in a wide range of end use areas.
+</p>
 			<a href="#" data-toggle="modal" data-target="#myModal" class="hvr-wobble-skew read">Read More</a>
 		</div>
+
 		<!-- //banner-info -->
 		<!-- model -->
 		<div class="tooltip-content">
@@ -26,11 +28,18 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							<h4 class="modal-title">Wooden Work</h4>
+							<h4 class="modal-title">Jiya Pharmachem</h4>
 						</div>
 						<div class="modal-body">
-							<img src="images/g4.jpg" alt="Hitech Info">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius lectus vitae porttitor fringilla. Donec turpis orci, elementum a nunc quis, maximus varius ipsum. Sed bibendum ex in dignissim bibendum.</p>
+							<!-- <img src="images/g4.jpg" alt="Hitech Info"> -->
+							<p>We at jiya Pharmachem also takes order regarding job work.<br>
+if you need to carry out reaction for a particular product let us know, we will provide you the space and the requirement that you needed.<br>
+We also help you in manufacturing of equipment, like wise just give us the specification and the details of the equipment you required, we help you to get the best equipment with good life sustain quality.<br>
+At Jiya Pharmachem we Provide you Chemicals From Small Molecule To Multi tons.<br>
+We can support you from your R&D level to commercial scale<br>
+Or else <br>
+If you have extra capacity to carry manufacturing let us know, we will help you to make the efficient and optimize use of it.<br>
+We At jiya Pharmachem helps you to build from technical as well from the economic point of view</p>
 						</div>
 					</div>
 				</div>
@@ -46,19 +55,37 @@
 		<h3 class="agile-title">About Us</h3>
 		<div class="about-top w3ls-agile">
 			<div class="col-md-6 red">
-				<img class="img-responsive" src="images/ab.jpg" alt="">
+				<div class="about-wel">
+					<h5>Our Industries Include</h5>
+
+
+
+
+						<ul>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>CHEMICALS INDUSTRIES</strong></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>PHARMACEUTICAL INDUSTRIES</strong></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>ORGANIC AND INORGANIC INDUSTRIES.</strong></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>AGROCHEMICAL INDUSTRIES</strong></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>PETROCHEMICAL INDUSTRIES</strong></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>OLEO CHEMICAL INDUSTRIES</strong></li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><strong>FOOD PROCESSING INDUSTRIES</strong></li>
+							
+						</ul>
+				</div>
 			</div>
 			<div class="col-md-6 come">
 				<div class="about-wel">
-					<h5>Over 15 Years Experience In Industry</h5>
-					<p>Masagni dolores eoquie int Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temurer sehsMunim.</p>
+					<p><strong>JIYA PHARMACHEM</strong> have been involved as an import and distribution company by providing range of specialty chemicals to various industries all over India.</p>
+
+
+
+
 						<ul>
-							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Renovation of office furniture</li>
-							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Make Quality Products</li>
-							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Hardwood Flooring</li>
-							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Interior Furniture Manufacturing</li>
-							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Excellent Designing</li>
-							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Reparing of wooden almerah</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Specialty Chemicals</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Laboratory Chemical</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>New Molecule</li>
+							<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Surplus chemical</li>
+							
 						</ul>
 				</div>
 			</div>
@@ -72,7 +99,7 @@
 <!-- services -->
 <div class="service-w3l" id="services">
 	<div class="container">
-		<h3 class="agile-title"> Our Services</h3>
+		<h3 class="agile-title"> Why choose us</h3>
 		<div class="service-grids">
 			<div class="col-xs-4 ser-grid">
 				<div class="ser-top">
@@ -141,7 +168,7 @@
 
 
 <!-- gallery -->
-<div id="gallery" class="portfolio">
+<!-- <div id="gallery" class="portfolio">
 	<div class="container">
 		<h3 class="agile-title">Portfolio</h3>
 		<div class="gallery_gds agileits-w3layouts">
@@ -157,7 +184,7 @@
 						<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g1.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -168,7 +195,7 @@
 						<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g2.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -179,7 +206,7 @@
 						<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g3.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -190,7 +217,7 @@
 						<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g4.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -201,7 +228,7 @@
 						<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g5.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -212,7 +239,7 @@
 						<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g6.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -223,7 +250,7 @@
 						<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g7.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -234,7 +261,7 @@
 						<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g3.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -245,7 +272,7 @@
 						<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
 							<img src="images/g4.jpg" alt="" class="img-responsive" />
 							<div class="overlay">
-								<h4>Wooden Work</h4>
+								<h4>Jiya Pharmachem</h4>
 								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Full View</div>
 							</div>
 						</a>	
@@ -255,24 +282,24 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- //gallery -->
 
 
 <!-- middle-section -->
-<div class="subscribe-agileinfo about-w3agile"> 
+<!-- <div class="subscribe-agileinfo about-w3agile"> 
 	<div class="container">  
 		<h3>If you have any wood work need...</h3>
 		<p>Simply call our 24 hour emergency number.</p> 
 		<p><a><i class="fa fa-phone" aria-hidden="true"></i> +012 345 6789</a><p>
 	</div>
-</div>
+</div> -->
 <!-- //middle-section -->
 
 
 <!-- map -->
 <div class="map">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" style="border:0"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.971913003025!2d72.95385041490275!3d19.173009687032284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8f075d8d5d3%3A0x343f8c42b2eea831!2sKapeesh+Mall%2C+MG+Road%2C+Vidya+Vihar%2C+Mulund+West%2C+Mumbai%2C+Maharashtra+400080!5e1!3m2!1sen!2sin!4v1511012544943"  frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 <!-- //map -->
 <!-- mail -->
