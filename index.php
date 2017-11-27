@@ -73,7 +73,7 @@ We At jiya Pharmachem helps you to build from technical as well from the economi
 						</ul>
 				</div>
 			</div>
-			<div class="col-md-6 come">
+			<div class="col-md-5 come">
 				<div class="about-wel">
 					<p><strong>JIYA PHARMACHEM</strong> have been involved as an import and distribution company by providing range of specialty chemicals to various industries all over India.</p>
 

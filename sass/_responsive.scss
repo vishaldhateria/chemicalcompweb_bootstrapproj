@@ -120,6 +120,12 @@
 		margin: 2.5em .8em;
 	}
 }
+@media(min-width: 992px){
+	.red {
+		border-right: 1px solid #ccc;
+    	margin-right: 70px;
+	}
+}
 @media(max-width: 991px){
 	.social-wthree-icons.bnragile-icons {
 		margin: 2.5em .5em;

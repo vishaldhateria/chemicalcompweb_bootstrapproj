@@ -4,23 +4,6 @@ $(function() {
                 return this.optional(element) || /^[a-z]+$/i.test(value);
             }, "Letters only please");
 
-     jQuery.validator.addMethod("fileSize", function(val, element) {
-
-     var size = element.files[0].size;
-     console.log(size);
-
-     if (size > 2048576) // checks the file more than 1 MB
-     {
-         return false;
-     } else {
-         return true;
-     }
-
- }, "Maximum 2MB Image Size Allowed");
-    $.validator.addMethod( "extension", function( value, element, param ) {
-               param = typeof param === "string" ? param.replace( /,/g, "|" ) : "png|jpe?g|pdf|doc|docx";
-               return this.optional( element ) || value.match( new RegExp( "\\.(" + param + ")$", "i" ) );
-           }, $.validator.format( "Please enter a value with a valid extension." ) );
             // Initialize form validation on the registration form.
             // It has the name attribute "registration"
             // Career Form Start
