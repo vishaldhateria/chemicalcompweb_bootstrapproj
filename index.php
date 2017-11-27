@@ -15,7 +15,7 @@
 		<!-- banner-info -->
 		<div class="agile-baner-info-w3ls">  
 			<h3>Why Jiya Pharmachem?</span></h3>
-			<p>Jiya Pharmachem provides a wide range of Speciality Chemicals characterised by an innovation culture that regularly updates & launches high performance functional molecules. This range is customer focussed & application specific used in a wide range of end use areas.
+			<p>Jiya Pharmachem provides a wide range of Speciality Chemicals characterised by an innovation culture that regularly updates &amp; launches high performance functional molecules. This range is customer focussed &amp; application specific used in a wide range of end use areas.
 </p>
 			<a href="#" data-toggle="modal" data-target="#myModal" class="hvr-wobble-skew read">Read More</a>
 		</div>
@@ -36,7 +36,7 @@
 if you need to carry out reaction for a particular product let us know, we will provide you the space and the requirement that you needed.<br>
 We also help you in manufacturing of equipment, like wise just give us the specification and the details of the equipment you required, we help you to get the best equipment with good life sustain quality.<br>
 At Jiya Pharmachem we Provide you Chemicals From Small Molecule To Multi tons.<br>
-We can support you from your R&D level to commercial scale<br>
+We can support you from your R&amp;D level to commercial scale<br>
 Or else <br>
 If you have extra capacity to carry manufacturing let us know, we will help you to make the efficient and optimize use of it.<br>
 We At jiya Pharmachem helps you to build from technical as well from the economic point of view</p>
@@ -56,7 +56,7 @@ We At jiya Pharmachem helps you to build from technical as well from the economi
 		<div class="about-top w3ls-agile">
 			<div class="col-md-6 red">
 				<div class="about-wel">
-					<h5>Our Industries Include</h5>
+					<h2>Our Industries Include</h2>
 
 
 
@@ -307,12 +307,24 @@ We At jiya Pharmachem helps you to build from technical as well from the economi
 	<div class="container">
 		<div class="col-xs-7 mail-grid1-form ">
 			<h3 class="heading-agileinfo white">Send a Message</h3>
-			<form action="#" method="post">
-				<input type="text" name="Name" placeholder="Name" required="" />
-				<input type="email" name="Email" placeholder="Email" required="" />
-				<textarea name="Message" placeholder="Type Your Text Here...." required=""></textarea>
-				<input type="submit" value="Submit">
-			</form>
+			<form id="career-form" class="common-form" enctype="multipart/form-data" action="contact-submit.php" method="post">
+	            <div class="col-xs-12 col-md-6 filed-box">
+	                <input type="text" name="uname" placeholder="Your Name*" class="common-inputfd">
+	            </div>
+	            <div class="col-xs-12 col-md-6 filed-box">
+	                <input type="text" name="uphone" placeholder="Mobile No*" class="common-inputfd">
+	            </div>
+	            <div class="col-xs-12 col-md-6 filed-box">
+	                <input type="text" name="uemail" placeholder="Your E-mail*" class="common-inputfd">
+	            </div>
+	            <div class="col-xs-12 col-md-6 filed-box">
+	                <input type="text" name="umessage" placeholder="Enter your message here" class="common-inputfd">
+	            </div>
+	            
+	            <div class="col-md-12 text-center">
+	                <input class="submit-btn" type="submit" value="Send"> 
+	            </div>
+	        </form>
 		</div>
 		<div class="col-xs-5 agileinfo_footer_grid f3">
 			<div class="nav-w3-l">

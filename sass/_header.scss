@@ -1,0 +1,165 @@
+/*-- header --*/
+
+.navbar-header h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 1px;
+  font-size: 2em;
+}
+
+.navbar-default {
+  background: rgba(51, 51, 51, 0.35);
+  border: none;
+  margin: 0;
+  min-height: inherit;
+  @media(max-width: 767px) {
+    background: #fff;
+  }
+  .navbar-nav {
+    > {
+      .active > a {
+        color: #99abd5;
+        background: none !important;
+        &:hover, &:focus {
+          color: #99abd5;
+          background: none !important;
+        }
+      }
+      li > a {
+        font-size: 1em;
+        padding: 1em 0;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        border: 1px solid #FF9800;
+        border-bottom: none;
+        border-right: none;
+        text-align: center;
+        &:hover, &:focus {
+          color: #47cf73;
+          outline: none;
+        }
+      }
+    }
+    li a.active {
+      color: #47cf73;
+      outline: none;
+    }
+  }
+}
+
+.navbar-right {
+  float: left !important;
+  margin-right: 0px !important;
+  width: 100%;
+}
+
+.navbar-collapse {
+  padding: 0 !important;
+}
+
+.navbar-nav > li {
+  float: left;
+  width: 25%;
+}
+
+/*-- nav-effect --*/
+
+// .navbar-default {
+//   float: left;
+//   width: 80%;
+// }
+
+.navbar-nav, .header-top {
+  padding-left: 24em;
+}
+
+.header-nav {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #FF9800;
+  z-index: 9;
+  @media(max-width: 767px) {
+     background: $white;
+     color: $black;
+     padding: 0 0 10px;
+  }
+}
+
+.navwhite {
+  background: $white;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0), 0 3px 6px rgba(0, 0, 0, 0.14);
+  .navbar-default {
+    .navbar-nav > li > a {
+      font-weight:  bold;
+    }
+  }
+  .navbar-default .navbar-brand {
+    top: 12px;
+    color: #000;
+  }
+  .contact-bnr-w3-agile {
+    display: none;
+    ul li a {
+      color: $black;
+    }
+  }
+}
+
+.navbar-nav > li:nth-child(1) > a {
+  background: rgba(51, 122, 218, 0.66);
+  &:hover {
+    background: rgba(51, 122, 218, 0.66);
+  }
+}
+
+.navbar-nav > li:nth-child(2) > a {
+  background: rgba(255, 152, 0, 0.72);
+  &:hover {
+    background: rgba(255, 152, 0, 0.72);
+  }
+}
+
+.navbar-nav > li:nth-child(3) > a {
+  background: rgba(76, 175, 80, 0.58);
+  &:hover {
+    background: rgba(76, 175, 80, 0.58);
+  }
+}
+
+.navbar-nav > li:nth-child(4) > a {
+  background: rgba(255, 193, 7, 0.68);
+  &:hover {
+    background: rgba(255, 193, 7, 0.68);
+  }
+}
+
+.navbar-nav > li:nth-child(5) > a {
+  background: rgba(0, 150, 136, 0.68);
+  &:hover {
+    background: rgba(0, 150, 136, 0.68);
+  }
+}
+
+.navbar-nav > li:nth-child(6) > a {
+  background: rgba(156, 39, 176, 0.63);
+  &:hover {
+    background: rgba(156, 39, 176, 0.63);
+  }
+}
+
+
+.cl-effect-13 ul li a {
+  &:hover::before, &:focus::before {
+    color: #fff;
+    text-shadow: 10px 0 #fff, -10px 0 #fff;
+  }
+}
+
+ul.nav.navbar-nav li a.active::before {
+  color: #fff;
+  text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+/*-- //nav-effect --*/

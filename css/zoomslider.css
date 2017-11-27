@@ -127,12 +127,15 @@
 }
 @media (max-width:568px){
 	#demo-1 {
-		min-height: 500px;
+		min-height: 620px;
+	}
+	.agile-baner-info-w3ls {
+		top: 150px;
 	}
 }
 @media (max-width:480px){
 	#demo-1 {
-		min-height: 450px;
+		/*min-height: 450px;*/
 	}
 	.zs-enabled .zs-slideshow .zs-bullets {
 		position: absolute;
@@ -145,12 +148,12 @@
 }
 @media (max-width:375px){
 	#demo-1 {
-		min-height: 428px;
+		/*min-height: 428px;*/
 	}
 }
 @media (max-width:320px){
 	#demo-1 {
-		min-height: 397px;
+		/*min-height: 397px;*/
 	}
 	.zs-enabled .zs-slideshow .zs-bullets {
 		position: absolute;
