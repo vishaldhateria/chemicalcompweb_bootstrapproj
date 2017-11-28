@@ -321,7 +321,7 @@ We At jiya Pharmachem helps you to build from technical as well from the economi
 	                <input type="text" name="umessage" placeholder="Enter your message here" class="common-inputfd">
 	            </div>
 	            
-	            <div class="col-md-12 text-center">
+	            <div class="col-xs-12 col-md-12 text-center">
 	                <input class="submit-btn" type="submit" value="Send"> 
 	            </div>
 	        </form>

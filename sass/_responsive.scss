@@ -148,7 +148,7 @@
 		padding: 0 .5em;
 	}
 	.ser-top {
-		padding: 4em 1em;
+		padding: 4em 0 0 0;
 	}
 	.ser-grid h4 {
 		font-size: 1.55em;
@@ -233,14 +233,19 @@
 	.agile-baner-info-w3ls {
 		width: 90%;
 	}
-	h3.agile-title {
-		font-size: 2.5em;
-	}
+
 	.agileinfo_footer_grid.f3 {
 		padding-top: 32.5em;
 	}
 }
 @media(max-width: 767px){
+	#services {
+		padding: 20px 0 50px 0px;
+	}
+	h3.agile-title {
+		font-size: 30px;
+		text-align: center;
+	}
 	.navbar-default .navbar-toggle {
 		border-color: $yellow;
 	}
@@ -398,7 +403,7 @@
 		font-size: 2.1em;
 	}
 	.ser-top {
-		padding: 4em 2em;
+		padding: 4em 0 0 0;
 	}
 	.ser-grid {
 		padding: 0 7em;
@@ -427,6 +432,9 @@
 		top: .4em;
 		letter-spacing: 0px;
 	}
+	.contact {
+	    padding: 5em 0 0;
+	}
 	.agile-baner-info-w3ls h3 {
 		font-size: 1.98em;
 	}
@@ -438,7 +446,7 @@
 		margin-top: 22em;
 	}
 	.address-agileits {
-		width: 92%;
+		width: 100%;
 	}
 	.agileinfo_footer_grid.f3 {
 		width: 100%;
@@ -480,8 +488,9 @@
 		padding-left: 0;
 	}
 	.navbar-default .navbar-brand {
-		top: .2em;
+		top: 1.5em;
 		left: .8em;
+		color: $black;
 	}
 	.navbar-toggle {
 		margin: 1.2em 1.8em 0 0;
